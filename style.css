@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+button{ /* aşağıdaki ilk dört satır ile butonu ekranın tam ortasına aldık. */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+    width: 200px;
+    height: 70px;
+    border-radius: 50px;
+    border: 8px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
